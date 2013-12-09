@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		394B6C9D184A714B003B4046 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 394B6C9C184A714B003B4046 /* Default-568h@2x.png */; };
+		39D7ADC718556E4D00CB61C5 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D7ADC518556E4D00CB61C5 /* Back.png */; };
+		39D7ADC818556E4D00CB61C5 /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D7ADC618556E4D00CB61C5 /* Back@2x.png */; };
 		7B01146A151B14EA00A0616D /* TextField.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B011468151B14EA00A0616D /* TextField.png */; };
 		7B01146B151B14EA00A0616D /* TextField@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B011469151B14EA00A0616D /* TextField@2x.png */; };
 		7B01146E151B2E6A00A0616D /* TableViewBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B01146C151B2E6A00A0616D /* TableViewBorder.png */; };
@@ -34,8 +36,6 @@
 		7B7B52C0153BD41C00A1F26E /* PacketServerReady.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7B52BF153BD41C00A1F26E /* PacketServerReady.m */; };
 		7B7B533D153BE48E00A1F26E /* ActivePlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B52C1153BE48E00A1F26E /* ActivePlayer.png */; };
 		7B7B533E153BE48E00A1F26E /* ActivePlayer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B52C2153BE48E00A1F26E /* ActivePlayer@2x.png */; };
-		7B7B533F153BE48E00A1F26E /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B52C3153BE48E00A1F26E /* Back.png */; };
-		7B7B5340153BE48E00A1F26E /* Back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B52C4153BE48E00A1F26E /* Back@2x.png */; };
 		7B7B5341153BE48E00A1F26E /* Clubs 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B52C5153BE48E00A1F26E /* Clubs 2.png */; };
 		7B7B5342153BE48E00A1F26E /* Clubs 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B52C6153BE48E00A1F26E /* Clubs 2@2x.png */; };
 		7B7B5343153BE48E00A1F26E /* Clubs 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7B52C7153BE48E00A1F26E /* Clubs 3.png */; };
@@ -218,6 +218,8 @@
 
 /* Begin PBXFileReference section */
 		394B6C9C184A714B003B4046 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		39D7ADC518556E4D00CB61C5 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		39D7ADC618556E4D00CB61C5 /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
 		7B011468151B14EA00A0616D /* TextField.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextField.png; sourceTree = "<group>"; };
 		7B011469151B14EA00A0616D /* TextField@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TextField@2x.png"; sourceTree = "<group>"; };
 		7B01146C151B2E6A00A0616D /* TableViewBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewBorder.png; sourceTree = "<group>"; };
@@ -253,8 +255,6 @@
 		7B7B52BF153BD41C00A1F26E /* PacketServerReady.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PacketServerReady.m; path = Snap/PacketServerReady.m; sourceTree = "<group>"; };
 		7B7B52C1153BE48E00A1F26E /* ActivePlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ActivePlayer.png; sourceTree = "<group>"; };
 		7B7B52C2153BE48E00A1F26E /* ActivePlayer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ActivePlayer@2x.png"; sourceTree = "<group>"; };
-		7B7B52C3153BE48E00A1F26E /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
-		7B7B52C4153BE48E00A1F26E /* Back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back@2x.png"; sourceTree = "<group>"; };
 		7B7B52C5153BE48E00A1F26E /* Clubs 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clubs 2.png"; sourceTree = "<group>"; };
 		7B7B52C6153BE48E00A1F26E /* Clubs 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clubs 2@2x.png"; sourceTree = "<group>"; };
 		7B7B52C7153BE48E00A1F26E /* Clubs 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clubs 3.png"; sourceTree = "<group>"; };
@@ -476,8 +476,8 @@
 			children = (
 				7B7B52C1153BE48E00A1F26E /* ActivePlayer.png */,
 				7B7B52C2153BE48E00A1F26E /* ActivePlayer@2x.png */,
-				7B7B52C3153BE48E00A1F26E /* Back.png */,
-				7B7B52C4153BE48E00A1F26E /* Back@2x.png */,
+				39D7ADC518556E4D00CB61C5 /* Back.png */,
+				39D7ADC618556E4D00CB61C5 /* Back@2x.png */,
 				7BF49E9814EB9BA100AB8472 /* Button.png */,
 				7BF49E9914EB9BA100AB8472 /* Button@2x.png */,
 				7BF49E9A14EB9BA100AB8472 /* ButtonPressed.png */,
@@ -888,6 +888,7 @@
 				7B01146E151B2E6A00A0616D /* TableViewBorder.png in Resources */,
 				7B01146F151B2E6A00A0616D /* TableViewBorder@2x.png in Resources */,
 				7B011472151B2FBA00A0616D /* CellBackground.png in Resources */,
+				39D7ADC718556E4D00CB61C5 /* Back.png in Resources */,
 				7B011473151B2FBA00A0616D /* CellBackground@2x.png in Resources */,
 				7B011476151B3AF600A0616D /* CellBackgroundSelected.png in Resources */,
 				7B011477151B3AF600A0616D /* CellBackgroundSelected@2x.png in Resources */,
@@ -899,8 +900,6 @@
 				7BE86F261534262E00881DE9 /* GameViewController.xib in Resources */,
 				7B7B533D153BE48E00A1F26E /* ActivePlayer.png in Resources */,
 				7B7B533E153BE48E00A1F26E /* ActivePlayer@2x.png in Resources */,
-				7B7B533F153BE48E00A1F26E /* Back.png in Resources */,
-				7B7B5340153BE48E00A1F26E /* Back@2x.png in Resources */,
 				7B7B5341153BE48E00A1F26E /* Clubs 2.png in Resources */,
 				7B7B5342153BE48E00A1F26E /* Clubs 2@2x.png in Resources */,
 				7B7B5343153BE48E00A1F26E /* Clubs 3.png in Resources */,
@@ -1005,6 +1004,7 @@
 				7B7B53A6153BE48E00A1F26E /* Spades 6@2x.png in Resources */,
 				7B7B53A7153BE48E00A1F26E /* Spades 7.png in Resources */,
 				7B7B53A8153BE48E00A1F26E /* Spades 7@2x.png in Resources */,
+				39D7ADC818556E4D00CB61C5 /* Back@2x.png in Resources */,
 				7B7B53A9153BE48E00A1F26E /* Spades 8.png in Resources */,
 				7B7B53AA153BE48E00A1F26E /* Spades 8@2x.png in Resources */,
 				7B7B53AB153BE48E00A1F26E /* Spades 9.png in Resources */,
